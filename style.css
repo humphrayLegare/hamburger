@@ -1,0 +1,74 @@
+body {
+    background:#404040;
+}
+
+
+.menu-hamburger {
+    position:absolute;
+    top:0;
+    right:0;
+    width:300px;
+    background:red;
+}
+
+.square {
+    position:absolute;
+    top:0;
+    right:0;
+    display:block;
+    border:2px solid white;
+    width:50px;
+    height:50px;
+}
+
+.square span {
+    display:block;
+    margin:auto;
+    width:60%;
+    height:5px;
+    margin-top:8px;
+    background:white;
+}
+
+.items {
+    position:absolute;
+    top:40px;
+    right:-240px;
+    color:white;
+}
+
+.items.expanded {
+    right:0;
+}
+
+.items ul {
+    list-style-type:none;
+
+}
+
+ul a {
+    display:block;
+    width:200px;
+    border:1px solid white;
+    color:white;
+    text-align:center;
+    text-transform:uppercase;
+    font-weight:bold;
+    padding:20px;
+    text-decoration:none;
+    mouse:pointer;
+}
+
+
+
+a:link {}
+
+a:visited {}
+
+a:hover {
+    opacity:0.8;
+    background:black;
+    font-size:18px;
+}
+
+a:active {}
